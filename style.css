@@ -77,3 +77,27 @@
   margin: 0.5rem;
   font-weight: 600;
   }
+
+
+  .box {
+    height: 100vh; /*Altura total disponível*/
+    width: 100vw; /*Largura total disponível*/
+    display: flex; /*Itens lado a lado*/
+    flex-direction: row; 
+    gap: 20px;
+    justify-content: center;  /*justificando itens na horizontal*/  
+    align-items: center;   /*Alinhamento vertical*/
+    /* flex-wrap: wrap;       /*Fazer a quebra dos itens */
+   
+   }
+   
+   
+   .box div { /*chamando minhas caixas / div para estilização*/
+     height: 150px; /*Altura*/
+     width: 150px;  /*Largura*/
+     border: 1px solid black; /*Estilização da borda*/
+     background-color: rgb(171, 23, 134); /*Cor de fundo*/
+     font-size: 60px; /*Tamanho da letra*/
+     box-shadow: 10px 10px 10px black;
+     border-radius: 10px;
+   }

@@ -14,3 +14,13 @@ if (video.paused) { //se o vídeo estiver pausado execute: Play.
     btn.innerHTML = "Play";
   }
 }
+
+
+
+window.revelar = ScrollReveal({reset:true});
+
+
+revelar.reveal('.efeito-img-topo', {
+    duration: 3000,
+    distance: '150px'
+});
